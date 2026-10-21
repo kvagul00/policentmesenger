@@ -1,0 +1,16 @@
+.sites-runtime/
+node_modules/
+.env
+.env.*
+!.env.example
+*.mdb
+*.ldb
+*.accdb
+*.laccdb
+*.log
+*.tar.gz
+*.zip
+.DS_Store
+Thumbs.db
+private/
+local-data/

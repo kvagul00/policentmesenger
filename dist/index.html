@@ -1,0 +1,6 @@
+<!doctype html>
+<html lang="ru">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="theme-color" content="#5145cd"><title>Полицентр — рабочие чаты</title><meta name="description" content="Рабочие чаты и обсуждения заказов Полицентр Workspace."><link rel="stylesheet" href="./styles.css"></head>
+<body><div id="app"></div><div id="toast" role="status" aria-live="polite"></div>
+<dialog id="new-dialog"><form id="new-form"><div class="dialog-heading"><h2>Новый рабочий чат</h2><button type="button" class="icon-button" data-action="close-dialog" aria-label="Закрыть">×</button></div><p class="muted">Обсудите задачу с командой. Номер заказа можно добавить сразу.</p><label>Название чата<input name="title" maxlength="100" placeholder="Например, вывеска для нового магазина" required></label><label>Номер заказа <span class="muted">необязательно</span><input name="number" maxlength="40" placeholder="Например, ПЦ-1052"></label><button class="primary" type="submit">Создать чат</button></form></dialog>
+<script type="module" src="./app.js"></script></body></html>

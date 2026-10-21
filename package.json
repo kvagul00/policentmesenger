@@ -1,0 +1,14 @@
+{
+  "name": "policentr-workspace-messenger",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Мессенджер Полицентр Workspace — интерактивный прототип",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "start": "node preview.cjs",
+    "test": "node --test domain.test.mjs",
+    "check": "node --check dist/app.js"
+  }
+}
